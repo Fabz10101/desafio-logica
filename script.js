@@ -1,6 +1,8 @@
-let nome = "Hburgur"
-let xp = 1500
-let nivel
+const prompt = require('prompt-sync')({sigint: true});
+
+let nome = prompt("Nome: ");
+let xp = 1500;
+let nivel;
 
 if (xp < 1000) {
     nivel = "Ferro"
